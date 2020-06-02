@@ -9,7 +9,14 @@ You will find a jupyter notebook called ``Example - PredictionExplanationsCluste
 
 ## Requirements
 
-All of the requirements are present within the [requirements.txt][requirements.txt] file.
+All of the requirements are present within the [requirements.txt](requirements.txt) file.
+
+To install these packages on pip, use:
+`pip install -r requirements.txt`
+
+To create a new environment using conda, use:
+
+`conda create --name <env_name> --file requirements.txt`
 
 ## Development and Contributing
 
