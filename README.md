@@ -9,7 +9,7 @@ You will find a jupyter notebook called ``Example - PredictionExplanationsCluste
 
 ## Requirements
 
-All of the requirements are present within requirements.txt file.
+All of the requirements are present within the [requirements.txt][requirements.txt] file.
 
 ## Development and Contributing
 
