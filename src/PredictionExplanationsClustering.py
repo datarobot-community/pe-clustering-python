@@ -18,7 +18,7 @@ class PredictionExplanationsClustering:
         self.project_id = project_id
         self.model_id = model_id
         self.data = data
-        self.project = dr.Project(id = self.project_id)
+        self.project = dr.Project.get(self.project_id)
         self.model = dr.Model(id=model_id, project_id = project_id)
         self.n_reasons = n_reasons
         self.prediction_explanation_results = None
