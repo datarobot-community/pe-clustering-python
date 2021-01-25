@@ -151,7 +151,7 @@ class PredictionExplanationsClustering:
         print('Applying HDBSCAN clustering...')
         
         try:
-            self.labels = hdbscan.HDBSCAN(min_samples=min_samples, min_cluster_size=500).fit_predict(self.clusterable_embedding)
+            self.labels = hdbscan.HDBSCAN(min_samples=min_samples, min_cluster_size=min_cluster_size).fit_predict(self.clusterable_embedding)
         except:
             raise Exception("Please execute 'retrieve_prediction_explanations', 'get_strength_per_feature_cols'  and 'run_umap' methods first.")
             
