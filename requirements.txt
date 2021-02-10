@@ -3,7 +3,7 @@ certifi==2020.4.5.1
 chardet==3.0.4
 cycler==0.10.0
 Cython==0.29.19
-datarobot==2.20.2
+datarobot==2.23.0
 hdbscan==0.8.26
 idna==2.9
 joblib==0.15.1
