@@ -64,7 +64,7 @@ class PredictionExplanationsClustering:
                                    threshold_low=None,
                                    threshold_high=None)
         
-        rc = rc_job.get_result_when_complete()
+        rc = rc_job.get_result_when_complete(max_wait = 10000)
         all_rows = rc.get_all_as_dataframe()
         self.prediction_explanation_results =  all_rows
         
