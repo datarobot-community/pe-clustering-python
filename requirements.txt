@@ -6,7 +6,7 @@ Cython==0.29.19
 datarobot==2.23.0
 hdbscan==0.8.26
 idna==2.9
-joblib==0.15.1
+joblib==1.2.0
 kiwisolver==1.2.0
 llvmlite==0.32.1
 matplotlib==3.2.1
