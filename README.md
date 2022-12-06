@@ -1,3 +1,5 @@
+**Please note:** The code in these repos is sourced from the DataRobot user community and is not owned or maintained by DataRobot, Inc. You may need to make edits or updates for this code to function properly in your environment.
+
 # Prediction Explanations Clustering
 The `PredictionExplanationsClustering` Python package provides you with high level methods that you can use to cluster prediction explanations results retrieved from DataRobot. These clusters can provide advanced insights on your data and help you better understand your models and problem.
 
